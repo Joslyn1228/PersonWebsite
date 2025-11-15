@@ -69,15 +69,19 @@ export default function Contact() {
                   key={index}
                   className="flex items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
                   onClick={() => {
-                    navigator.clipboard.writeText(link.wechatId || '')
-                    alert(`微信号已复制到剪贴板: ${link.wechatId}`)
+                    if (typeof window !== 'undefined' && navigator.clipboard) {
+                      navigator.clipboard.writeText(link.wechatId || '')
+                      alert(`微信号已复制到剪贴板: ${link.wechatId}`)
+                    }
                   }}
                   role="button"
                   tabIndex={0}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
-                      navigator.clipboard.writeText(link.wechatId || '')
-                      alert(`微信号已复制到剪贴板: ${link.wechatId}`)
+                      if (typeof window !== 'undefined' && navigator.clipboard) {
+                        navigator.clipboard.writeText(link.wechatId || '')
+                        alert(`微信号已复制到剪贴板: ${link.wechatId}`)
+                      }
                     }
                   }}
                   aria-label={`复制微信号 ${link.wechatId}`}

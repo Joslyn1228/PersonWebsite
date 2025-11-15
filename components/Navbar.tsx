@@ -8,6 +8,8 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
+    if (typeof window === 'undefined') return
+    
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
     }
