@@ -88,13 +88,18 @@ npm run lint
 
 ## 部署
 
-### GitHub Pages
+### GitHub Pages（推荐）
 
-1. 在 `next.config.js` 中添加 `output: 'export'` 配置（静态导出）
-2. 构建项目：`npm run build`
-3. 将 `out` 目录推送到 GitHub Pages
+项目已配置 GitHub Actions 自动部署。
 
-### Vercel（推荐）
+**步骤：**
+1. 在仓库 Settings → Pages 中，选择 "GitHub Actions" 作为源
+2. 推送代码到 main 分支，会自动触发部署
+3. 部署完成后访问：`https://joslyn1228.github.io/3/`
+
+详细说明请查看 [GITHUB_PAGES_DEPLOY.md](./GITHUB_PAGES_DEPLOY.md)
+
+### Vercel
 
 1. 将代码推送到 GitHub
 2. 在 [Vercel](https://vercel.com) 导入项目
@@ -105,7 +110,7 @@ npm run lint
 1. 将代码推送到 GitHub
 2. 在 [Netlify](https://netlify.com) 导入项目
 3. 构建命令：`npm run build`
-4. 发布目录：`.next`
+4. 发布目录：`out`
 
 ## 技术栈
 
