@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import data from '@/content/data.json'
+import data from '@/lib/data'
 
 export default function Contact() {
   const contactRef = useRef<HTMLElement>(null)
