@@ -7,7 +7,7 @@
 ### 步骤：
 
 1. **启用 GitHub Pages**
-   - 访问你的仓库：https://github.com/Joslyn1228/3
+   - 访问你的仓库：https://github.com/Joslyn1228/4
    - 点击 Settings → Pages
    - 在 "Source" 部分，选择 "GitHub Actions"
    - 保存设置
@@ -21,8 +21,8 @@
 
 3. **访问网站**
    - 部署完成后，网站地址为：
-   - `https://joslyn1228.github.io/3/`
-   - 或 `https://joslyn1228.github.io/3`（取决于仓库名）
+   - `https://joslyn1228.github.io/4/`
+   - 或 `https://joslyn1228.github.io/4`（取决于仓库名）
 
 ## 手动部署
 
