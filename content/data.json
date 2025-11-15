@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "name": "Joslyn",
+    "title": "终身学习 | Life Long Learner",
+    "description": "武汉理工大学经济学院|智能经济",
+    "cta": {
+      "primary": "查看项目",
+      "secondary": "联系我"
+    }
+  },
+  "about": {
+    "title": "关于我",
+    "description": "热爱阅读、游泳、写作、电子游戏。正在学习数字经济。",
+    "skills": [
+      "React / Next.js",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "Git / GitHub"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "项目一",
+      "description": "这是一个示例项目，展示了我的开发技能和设计能力。",
+      "technologies": ["React", "TypeScript", "Tailwind CSS"],
+      "image": "/images/project-1.jpg",
+      "link": "https://github.com",
+      "github": "https://github.com"
+    },
+    {
+      "id": 2,
+      "title": "项目二",
+      "description": "另一个优秀的项目示例，体现了我的全栈开发能力。",
+      "technologies": ["Next.js", "Node.js", "MongoDB"],
+      "image": "/images/project-2.jpg",
+      "link": "https://github.com",
+      "github": "https://github.com"
+    },
+    {
+      "id": 3,
+      "title": "项目三",
+      "description": "第三个项目示例，展示了我在移动端和响应式设计方面的经验。",
+      "technologies": ["React Native", "Firebase", "TypeScript"],
+      "image": "/images/project-3.jpg",
+      "link": "https://github.com",
+      "github": "https://github.com"
+    }
+  ],
+  "contact": {
+    "title": "联系我",
+    "description": "如果您对我的项目感兴趣，或者想要合作，欢迎通过以下方式联系我。",
+    "email": "JoslynLiu@163.com",
+    "github": "https://github.com/Joslyn1228",
+    "Wechat": "JoslynLiu1228",
+    "X(Twitter)": "https://twitter.com/JoslynLiu28"
+  }
+}
+
