@@ -33,6 +33,8 @@ jobs:
       
       - name: Build
         run: npm run build
+      - name: Export static files
+        run: npm run export
       - name: List output directory
         run: ls -la ./out
       
